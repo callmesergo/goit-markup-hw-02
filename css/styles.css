@@ -38,6 +38,13 @@ color: var(--accent-color);
     color: rgba(117, 117, 117, 1);
     text-decoration: none;
 }
+.team, .project-name {
+color: var(--title-text-color);
+font-family: roboto;
+}
+.proffesion, .project-info {
+    color: var(--primary-text-color);
+}
 
 
 
