@@ -1,0 +1,47 @@
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --title-text-color: rgba(33, 33, 33, 1);
+    --accent-color: #2196F3;
+    --alt-color: #ffffff;
+}
+/* logo */
+.logo {
+   color: var(--accent-color);
+font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
+   letter-spacing: 0.03em;
+text-decoration: none;
+}
+/* second part of the logo */
+.studio {
+    color: #000000;
+    }
+body {
+    background-color: #fff;
+    color: rgba(117, 117, 117, 1);
+}
+
+.list, .site-nav, .contact-list {
+    list-style: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.contact-list:hover,
+.contact-list:focus {
+color: var(--accent-color);
+
+}
+.contact-list {
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
