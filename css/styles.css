@@ -5,6 +5,11 @@
     --alt-color: #ffffff;
     --alt-dark-color: #2F303A;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: var(--title-text-color);
+}
 /* logo */
 .logo {
 color: var(--accent-color);
@@ -240,10 +245,7 @@ line-height: 1,8;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
-.body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #fff;
-    color: var(--title-text-color);}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
