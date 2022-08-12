@@ -127,8 +127,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 
-.adress-bottom, .mail-bottom:hover,
-.adress-bottom,.mail-bottom:focus {
+ .mail-bottom:hover,
+ .mail-bottom:focus {
     color: var(--accent-color);
 }
 .tel-bottom:hover,
