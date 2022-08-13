@@ -40,7 +40,7 @@ text-decoration: none;
 .current a {
 text-decoration: none;
 }
-.site-nav .link.current {
+.current {
     color: var(--accent-color);
 }
 
