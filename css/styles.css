@@ -5,13 +5,19 @@
     --alt-color: #ffffff;
     --alt-dark-color: #2F303A;
     --alt-black-color: #000000;
-    --section-grey-color rgba(245, 244, 250, 1);
+    --section-grey-color: rgba(245, 244, 250, 1);
 }
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--alt-color);
     color: var(--title-text-color);
     letter-spacing: 0.03em;
+}
+.current.studio {
+    color: var(--accent-color);
+}
+.current.portfolio {
+    color: var(--accent-color);
 }
 /* logo */
 .logo {
@@ -32,17 +38,16 @@ text-decoration: none;
 }    
 
 /* basic style fixing */
-.list, .current, .contacts-top, .contacts-bottom, .portfolio-button-list {
+.list {
     list-style: none;
 }
 /* hover prop */
 
-.current a {
+.list a {
 text-decoration: none;
 }
-.current {
-    color: var(--accent-color);
-}
+
+
 
 .studio {
 
